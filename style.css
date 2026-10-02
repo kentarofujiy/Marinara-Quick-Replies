@@ -1,0 +1,3 @@
+/* Quick Reply has no static stylesheet — all CSS is injected at runtime via
+   marinara.addStyle() inside extension.js, matching the other ported
+   extensions' bundle convention (bundle "css" field stays empty). */
